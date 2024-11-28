@@ -46,13 +46,6 @@ Jaya Jaya Institute adalah sebuah lembaga pendidikan tinggi yang telah berdiri s
    pip install -r requirements.txt
    ```
 
-**To run the Streamlit prediction:**
-```bash
-streamlit run streamlit_app.py
-```
-
-And to stop the streamlit application program by `ctrl + c`. 
-
 ## Business Dashboard
 
 [Jaya Jaya Institute Students Dashboard](https://public.tableau.com/shared/HX5QWTBF4 'Tableau Public - Jaya Jaya Institute Students Dashboard'), dirancang secara optimal untuk menyediakan insight bagi para pengajar dan pihak internal institusi mengenai tingkat siswa dropout yang mencapai lebih dari 30%. Dashboard ini juga dibuat dengan visualisasi dan pilihan warna yang ramah bagi individu dengan gangguan penglihatan warna (color blind) untuk meningkatkan aksesibilitas inklusif.
@@ -74,7 +67,19 @@ Pada dashboard ini, terdapat 3 bagian, sisi kiri adalah pie chart tentang summar
 > Dari **bar chart distribusi jenis kursus dan jenis kelamin**, kursus dengan data terbanyak adalah Keperawatan dengan jenis kelamin dominan adalah Perempuan. Sementara kursus dengan data paling sedikit adalah Teknologi Produksi Buofuel dengan dominasi Laki-laki. Selain itu, mahasiswa Laki-laki terbanyak ada di Program Studi Teknik Informatika dan Manajemen.  
 
 > [!NOTE]
-> Video singkat penjelasan business dashboard dan kesimpulannya dapat dilihat pada [link YouTube ini](https://youtu.be/FcmiS-Oo1xc 'Jaya Jaya Institute Students Dashboard').
+> Video singkat penjelasan business dashboard dan kesimpulannya dapat dilihat pada tautan [YouTube ini](https://youtu.be/FcmiS-Oo1xc 'Jaya Jaya Institute Students Dashboard').
+
+## Machine Learning Prediction System
+
+Untuk dapat membantu institusi dalam memprediksi kemungkinan jika siswanya akan dropout dan mencegah hal tersebut lebih dini, dapat menggunakan sistem prediksi yang telah dibangun. Sistem dibangun menggunakan Streamlit dan untuk menjalankan sistem tersebut secara local, dapat menjalankan kode berikut pada Terminal,
+
+```bash
+streamlit run streamlit_app.py
+```
+
+Dan untuk menghentikan program aplikasi Streamlit dapat melalui `ctrl + c`.
+
+Sistem prediksi tersebut juga dapat diakses secara langsung yang sudah di-deploy ke Streamlit Cloud melalui tautan [berikut ini](https://student-dropout-predict.streamlit.app 'Jaya Jaya Institute Students Dropout Prediction').
 
 ## Conclusion
 
